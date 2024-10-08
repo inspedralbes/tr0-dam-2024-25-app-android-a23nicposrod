@@ -1,0 +1,374 @@
+Listado de rutas de carpetas para el volumen SISTEMA
+El n£mero de serie del volumen es CC1B-0C49
+C:.
+ÃÄÄÄbuild
+³   ÃÄÄÄgenerated
+³   ³   ÀÄÄÄres
+³   ³       ÃÄÄÄpngs
+³   ³       ³   ÀÄÄÄdebug
+³   ³       ÀÄÄÄresValues
+³   ³           ÀÄÄÄdebug
+³   ÃÄÄÄintermediates
+³   ³   ÃÄÄÄaar_metadata_check
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄannotation_processor_list
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄapk
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄapk_ide_redirect_file
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄapp_metadata
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄassets
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄcompatible_screen_manifest
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄcompile_and_runtime_not_namespaced_r_class_jar
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄcompressed_assets
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ÃÄÄÄdata_binding_layout_info_type_merge
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ÃÄÄÄdata_binding_layout_info_type_package
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ÃÄÄÄdesugar_graph
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ³           ÃÄÄÄcurrentProject
+³   ³   ³           ³   ÃÄÄÄdirs_bucket_0
+³   ³   ³           ³   ÃÄÄÄdirs_bucket_1
+³   ³   ³           ³   ÃÄÄÄdirs_bucket_2
+³   ³   ³           ³   ÃÄÄÄdirs_bucket_3
+³   ³   ³           ³   ÃÄÄÄdirs_bucket_4
+³   ³   ³           ³   ÃÄÄÄdirs_bucket_5
+³   ³   ³           ³   ÃÄÄÄdirs_bucket_6
+³   ³   ³           ³   ÃÄÄÄdirs_bucket_7
+³   ³   ³           ³   ÃÄÄÄdirs_bucket_8
+³   ³   ³           ³   ÃÄÄÄdirs_bucket_9
+³   ³   ³           ³   ÃÄÄÄjar_b847a5e0ba8a800af5b7ae6e0b88e385daed18cdf45e569b69bc5819b27957c2_bucket_0
+³   ³   ³           ³   ÃÄÄÄjar_b847a5e0ba8a800af5b7ae6e0b88e385daed18cdf45e569b69bc5819b27957c2_bucket_1
+³   ³   ³           ³   ÃÄÄÄjar_b847a5e0ba8a800af5b7ae6e0b88e385daed18cdf45e569b69bc5819b27957c2_bucket_2
+³   ³   ³           ³   ÃÄÄÄjar_b847a5e0ba8a800af5b7ae6e0b88e385daed18cdf45e569b69bc5819b27957c2_bucket_3
+³   ³   ³           ³   ÃÄÄÄjar_b847a5e0ba8a800af5b7ae6e0b88e385daed18cdf45e569b69bc5819b27957c2_bucket_4
+³   ³   ³           ³   ÃÄÄÄjar_b847a5e0ba8a800af5b7ae6e0b88e385daed18cdf45e569b69bc5819b27957c2_bucket_5
+³   ³   ³           ³   ÃÄÄÄjar_b847a5e0ba8a800af5b7ae6e0b88e385daed18cdf45e569b69bc5819b27957c2_bucket_6
+³   ³   ³           ³   ÃÄÄÄjar_b847a5e0ba8a800af5b7ae6e0b88e385daed18cdf45e569b69bc5819b27957c2_bucket_7
+³   ³   ³           ³   ÃÄÄÄjar_b847a5e0ba8a800af5b7ae6e0b88e385daed18cdf45e569b69bc5819b27957c2_bucket_8
+³   ³   ³           ³   ÀÄÄÄjar_b847a5e0ba8a800af5b7ae6e0b88e385daed18cdf45e569b69bc5819b27957c2_bucket_9
+³   ³   ³           ÃÄÄÄexternalLibs
+³   ³   ³           ÃÄÄÄmixedScopes
+³   ³   ³           ÀÄÄÄotherProjects
+³   ³   ÃÄÄÄdex
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÃÄÄÄmergeExtDexDebug
+³   ³   ³       ÃÄÄÄmergeLibDexDebug
+³   ³   ³       ³   ÃÄÄÄ0
+³   ³   ³       ³   ÃÄÄÄ1
+³   ³   ³       ³   ÃÄÄÄ10
+³   ³   ³       ³   ÃÄÄÄ11
+³   ³   ³       ³   ÃÄÄÄ12
+³   ³   ³       ³   ÃÄÄÄ13
+³   ³   ³       ³   ÃÄÄÄ14
+³   ³   ³       ³   ÃÄÄÄ15
+³   ³   ³       ³   ÃÄÄÄ2
+³   ³   ³       ³   ÃÄÄÄ3
+³   ³   ³       ³   ÃÄÄÄ4
+³   ³   ³       ³   ÃÄÄÄ5
+³   ³   ³       ³   ÃÄÄÄ6
+³   ³   ³       ³   ÃÄÄÄ7
+³   ³   ³       ³   ÃÄÄÄ8
+³   ³   ³       ³   ÀÄÄÄ9
+³   ³   ³       ÀÄÄÄmergeProjectDexDebug
+³   ³   ³           ÃÄÄÄ0
+³   ³   ³           ÃÄÄÄ1
+³   ³   ³           ÃÄÄÄ10
+³   ³   ³           ÃÄÄÄ11
+³   ³   ³           ÃÄÄÄ12
+³   ³   ³           ÃÄÄÄ13
+³   ³   ³           ÃÄÄÄ14
+³   ³   ³           ÃÄÄÄ15
+³   ³   ³           ÃÄÄÄ2
+³   ³   ³           ÃÄÄÄ3
+³   ³   ³           ÃÄÄÄ4
+³   ³   ³           ÃÄÄÄ5
+³   ³   ³           ÃÄÄÄ6
+³   ³   ³           ÃÄÄÄ7
+³   ³   ³           ÃÄÄÄ8
+³   ³   ³           ÀÄÄÄ9
+³   ³   ÃÄÄÄdex_archive_input_jar_hashes
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄdex_number_of_buckets_file
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄduplicate_classes_check
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄexternal_file_lib_dex_archives
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄexternal_libs_dex_archive
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ÃÄÄÄexternal_libs_dex_archive_with_artifact_transforms
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ÃÄÄÄincremental
+³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ÃÄÄÄmergeDebugResources
+³   ³   ³   ³   ³   ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-af
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-am
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ar
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-as
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-az
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-b+sr+Latn
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-be
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-bg
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-bn
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-bs
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ca
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-cs
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-da
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-de
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-el
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-en-rAU
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-en-rCA
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-en-rGB
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-en-rIN
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-en-rXC
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-es
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-es-rUS
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-et
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-eu
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-fa
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-fi
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-fr
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-fr-rCA
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-gl
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-gu
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-h720dp-v13
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-hdpi-v4
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-hi
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-hr
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-hu
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-hy
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-in
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-is
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-it
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-iw
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ja
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ka
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-kk
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-km
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-kn
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ko
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ky
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-land
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-large-v4
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ldltr-v21
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-lo
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-lt
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-lv
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-mk
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ml
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-mn
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-mr
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ms
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-my
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-nb
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ne
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-night-v8
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-nl
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-or
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-pa
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-pl
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-port
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-pt
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-pt-rBR
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-pt-rPT
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ro
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ru
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-si
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sk
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sl
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sq
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sr
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sv
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sw
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-sw600dp-v13
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ta
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-te
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-th
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-tl
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-tr
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-uk
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-ur
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-uz
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-v16
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-v17
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-v18
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-v21
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-v22
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-v23
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-v24
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-v25
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-v26
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-v28
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-vi
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-watch-v20
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-watch-v21
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-xlarge-v4
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-zh-rCN
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-zh-rHK
+³   ³   ³   ³   ³   ³   ÃÄÄÄvalues-zh-rTW
+³   ³   ³   ³   ³   ³   ÀÄÄÄvalues-zu
+³   ³   ³   ³   ³   ÀÄÄÄstripped.dir
+³   ³   ³   ³   ÀÄÄÄpackageDebugResources
+³   ³   ³   ³       ÃÄÄÄmerged.dir
+³   ³   ³   ³       ÀÄÄÄstripped.dir
+³   ³   ³   ÃÄÄÄdebug-mergeJavaRes
+³   ³   ³   ³   ÀÄÄÄzip-cache
+³   ³   ³   ÃÄÄÄmergeDebugAssets
+³   ³   ³   ÃÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ÃÄÄÄmergeDebugShaders
+³   ³   ³   ÀÄÄÄpackageDebug
+³   ³   ³       ÀÄÄÄtmp
+³   ³   ³           ÀÄÄÄdebug
+³   ³   ³               ÀÄÄÄzip-cache
+³   ³   ÃÄÄÄjava_res
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ³           ÃÄÄÄcom
+³   ³   ³           ³   ÀÄÄÄexample
+³   ³   ³           ³       ÀÄÄÄjuegopreguntasandroid
+³   ³   ³           ³           ÃÄÄÄdata
+³   ³   ³           ³           ÀÄÄÄui
+³   ³   ³           ³               ÀÄÄÄtheme
+³   ³   ³           ÀÄÄÄMETA-INF
+³   ³   ÃÄÄÄlocal_only_symbol_list
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄmanifest_merge_blame_file
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄmerged_java_res
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄmerged_jni_libs
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ÃÄÄÄmerged_manifest
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄmerged_manifests
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄmerged_res
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄmerged_res_blame_folder
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ³           ÃÄÄÄmulti-v2
+³   ³   ³           ÀÄÄÄsingle
+³   ³   ÃÄÄÄmerged_shaders
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ÃÄÄÄmixed_scope_dex_archive
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ÃÄÄÄnavigation_json
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄpackaged_manifests
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄpackaged_res
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÃÄÄÄdrawable
+³   ³   ³       ÃÄÄÄlayout
+³   ³   ³       ÃÄÄÄmipmap-anydpi-v26
+³   ³   ³       ÃÄÄÄmipmap-hdpi-v4
+³   ³   ³       ÃÄÄÄmipmap-mdpi-v4
+³   ³   ³       ÃÄÄÄmipmap-xhdpi-v4
+³   ³   ³       ÃÄÄÄmipmap-xxhdpi-v4
+³   ³   ³       ÃÄÄÄmipmap-xxxhdpi-v4
+³   ³   ³       ÃÄÄÄvalues
+³   ³   ³       ÀÄÄÄxml
+³   ³   ÃÄÄÄprocessed_res
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ÃÄÄÄproject_dex_archive
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ³           ÀÄÄÄcom
+³   ³   ³               ÀÄÄÄexample
+³   ³   ³                   ÀÄÄÄjuegopreguntasandroid
+³   ³   ³                       ÃÄÄÄdata
+³   ³   ³                       ÀÄÄÄui
+³   ³   ³                           ÀÄÄÄtheme
+³   ³   ÃÄÄÄruntime_symbol_list
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄsigning_config_versions
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄsource_set_path_map
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄstable_resource_ids_file
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄsub_project_dex_archive
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ³       ÀÄÄÄout
+³   ³   ÃÄÄÄsymbol_list_with_package_name
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÃÄÄÄvalidate_signing_config
+³   ³   ³   ÀÄÄÄdebug
+³   ³   ÀÄÄÄvariant_model
+³   ³       ÀÄÄÄdebug
+³   ÃÄÄÄkotlin
+³   ³   ÀÄÄÄcompileDebugKotlin
+³   ³       ÃÄÄÄcacheable
+³   ³       ³   ÀÄÄÄcaches-jvm
+³   ³       ³       ÃÄÄÄinputs
+³   ³       ³       ÃÄÄÄjvm
+³   ³       ³       ³   ÀÄÄÄkotlin
+³   ³       ³       ÀÄÄÄlookups
+³   ³       ÃÄÄÄclasspath-snapshot
+³   ³       ÀÄÄÄlocal-state
+³   ÃÄÄÄoutputs
+³   ³   ÀÄÄÄlogs
+³   ÃÄÄÄsnapshot
+³   ³   ÀÄÄÄkotlin
+³   ÀÄÄÄtmp
+³       ÀÄÄÄkotlin-classes
+³           ÀÄÄÄdebug
+³               ÃÄÄÄcom
+³               ³   ÀÄÄÄexample
+³               ³       ÀÄÄÄjuegopreguntasandroid
+³               ³           ÃÄÄÄdata
+³               ³           ÀÄÄÄui
+³               ³               ÀÄÄÄtheme
+³               ÀÄÄÄMETA-INF
+ÃÄÄÄlibs
+ÀÄÄÄsrc
+    ÃÄÄÄandroidTest
+    ³   ÀÄÄÄjava
+    ³       ÀÄÄÄcom
+    ³           ÀÄÄÄexample
+    ³               ÀÄÄÄjuegopreguntasandroid
+    ÃÄÄÄmain
+    ³   ÃÄÄÄjava
+    ³   ³   ÀÄÄÄcom
+    ³   ³       ÀÄÄÄexample
+    ³   ³           ÀÄÄÄjuegopreguntasandroid
+    ³   ³               ÃÄÄÄdata
+    ³   ³               ÀÄÄÄui
+    ³   ³                   ÀÄÄÄtheme
+    ³   ÀÄÄÄres
+    ³       ÃÄÄÄdrawable
+    ³       ÃÄÄÄlayout
+    ³       ÃÄÄÄmipmap-anydpi-v26
+    ³       ÃÄÄÄmipmap-hdpi
+    ³       ÃÄÄÄmipmap-mdpi
+    ³       ÃÄÄÄmipmap-xhdpi
+    ³       ÃÄÄÄmipmap-xxhdpi
+    ³       ÃÄÄÄmipmap-xxxhdpi
+    ³       ÃÄÄÄvalues
+    ³       ÀÄÄÄxml
+    ÀÄÄÄtest
+        ÀÄÄÄjava
+            ÀÄÄÄcom
+                ÀÄÄÄexample
+                    ÀÄÄÄjuegopreguntasandroid
