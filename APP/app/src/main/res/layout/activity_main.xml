@@ -20,12 +20,11 @@
         android:layout_gravity="center"
         android:paddingBottom="16dp" />
 
-    <!-- RecyclerView para mostrar las preguntas -->
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewPreguntas"
+    <Button
+        android:id="@+id/but1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="16dp"
-        android:clipToPadding="false"
-        android:scrollbars="vertical" />
+        android:layout_height="185dp"
+        android:text="Button" />
+
+    <!-- RecyclerView para mostrar las preguntas -->
 </LinearLayout>

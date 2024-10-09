@@ -3,12 +3,44 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center_horizontal">
 
+    <!-- TextView para mostrar la pregunta -->
     <TextView
         android:id="@+id/preguntaTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pregunta"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botones para las posibles respuestas -->
+    <Button
+        android:id="@+id/respuestaButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respuesta 1"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/respuestaButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respuesta 2"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/respuestaButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respuesta 3"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/respuestaButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respuesta 4"
+        android:layout_marginBottom="12dp" />
 </LinearLayout>

@@ -4,6 +4,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface ApiService {
-    @GET("api/preguntes")
-    fun getPreguntas(): Call<PreguntasResponse>
+    @GET("ruta/a/tu/json") // Cambia esto por la ruta real a tu JSON en el servidor
+    fun obtenerPreguntas(): Call<Cuestionario>
 }
