@@ -1,11 +1,10 @@
-package com.example.juegopreguntasandroid
+package com.example.juegopreguntasandroid.data
 
-import com.example.juegopreguntasandroid.data.ApiService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
-    private const val BASE_URL = "https://192.168.0.155:3000/" // Cambia esto por la URL base de tu servidor
+    private const val BASE_URL = "http://192.168.0.155:3000/" // Cambia esto por la URL base de tu servidor
 
     private val retrofit: Retrofit by lazy {
         Retrofit.Builder()
@@ -14,7 +13,7 @@ object RetrofitClient {
             .build()
     }
 
-    val api: ApiService by lazy {
+    val apiService: ApiService by lazy {
         retrofit.create(ApiService::class.java)
     }
 }

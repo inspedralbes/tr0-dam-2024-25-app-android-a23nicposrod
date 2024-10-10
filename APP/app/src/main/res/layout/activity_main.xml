@@ -1,30 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    tools:context="com.example.juegopreguntasandroid.MainActivity"
-    >
+    android:padding="16dp">
 
-    <!-- Encabezado de la actividad -->
+    <!-- Título -->
     <TextView
-        android:id="@+id/tituloTextView"
+        android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Juego de Preguntas"
+        android:text="Bienvenido al Juego de Preguntas"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_gravity="center"
-        android:paddingBottom="16dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"/> <!-- Espacio adicional en la parte superior -->
+
+    <!-- Botón Jugar -->
+    <!-- Centramos el botón horizontalmente -->
+
+    <!-- Botón Estadísticas -->
 
     <Button
-        android:id="@+id/but1"
-        android:layout_width="match_parent"
-        android:layout_height="185dp"
-        android:text="Button" />
+        android:id="@+id/boton_jugar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="274dp"
+        android:layout_marginBottom="16dp"
+        android:text="Jugar" />
 
-    <!-- RecyclerView para mostrar las preguntas -->
-</LinearLayout>
+    <Button
+        android:id="@+id/boton_estadisticas"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Estadísticas"
+        android:layout_below="@id/boton_jugar"
+        android:layout_centerHorizontal="true"/> <!-- Centramos el botón horizontalmente -->
+
+</RelativeLayout>
