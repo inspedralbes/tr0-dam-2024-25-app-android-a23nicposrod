@@ -35,14 +35,14 @@
             android:id="@+id/respuestaButton1"
             android:layout_width="193dp"
             android:layout_height="98dp"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="10dp"
             android:text="Respuesta 1" />
 
         <Button
             android:id="@+id/respuestaButton2"
             android:layout_width="193dp"
             android:layout_height="98dp"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="10dp"
             android:text="Respuesta 2" />
     </LinearLayout>
 
@@ -55,14 +55,14 @@
             android:id="@+id/respuestaButton3"
             android:layout_width="193dp"
             android:layout_height="98dp"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="10dp"
             android:text="Respuesta 3" />
 
         <Button
             android:id="@+id/respuestaButton4"
             android:layout_width="193dp"
             android:layout_height="98dp"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="10dp"
             android:text="Respuesta 4" />
     </LinearLayout>
 
