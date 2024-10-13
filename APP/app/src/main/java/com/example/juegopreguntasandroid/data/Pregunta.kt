@@ -5,5 +5,5 @@ data class Pregunta(
     val pregunta: String,
     val respostes: List<Resposta>,
     val resposta_correcta: Int,
-    val imagenUrl: String?
+    val imatge: String
 )

@@ -7,7 +7,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-
 @Composable
 fun ResultadoScreen(navController: NavHostController, correctAnswers: Int, totalPreguntas: Int) {
     val aprobado = correctAnswers > (totalPreguntas / 2) // Aprobar si tiene más de la mitad correctas
@@ -34,8 +33,10 @@ fun ResultadoScreen(navController: NavHostController, correctAnswers: Int, total
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        Button(onClick = { navController.popBackStack() }) {
+        // Navegación de vuelta a la pantalla principal (home)
+        Button(onClick = { navController.navigate("home") }) {
             Text(text = "Volver")
         }
     }
 }
+
