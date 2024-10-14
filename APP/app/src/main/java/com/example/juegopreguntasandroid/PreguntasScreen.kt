@@ -14,42 +14,55 @@ import androidx.compose.material3.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import coil.compose.rememberImagePainter
 import coil.imageLoader
 import coil.request.ImageRequest
-import com.squareup.picasso.Picasso
+import kotlinx.coroutines.*
 
 @Composable
 fun PreguntasScreen(navController: NavHostController) {
-    // Usar ViewModel
     val viewModel: PreguntasViewModel = remember { PreguntasViewModel() }
 
-    // Acceder a las variables desde el ViewModel
     val preguntas = viewModel.preguntas
     val currentPreguntaIndex = viewModel.currentPreguntaIndex
     val correctAnswersCount = viewModel.correctAnswersCount
     val isLoading = viewModel.isLoading
     val errorMessage = viewModel.errorMessage
+    val timeLeft by viewModel.timeLeft.collectAsState() // Estado para el temporizador
+
+    // Lanzar el temporizador cuando la pantalla se carga
+    LaunchedEffect(Unit) {
+        viewModel.startTimer()
+    }
 
     if (isLoading) {
         CircularProgressIndicator(modifier = Modifier.padding(16.dp))
     } else if (preguntas.isNotEmpty() && currentPreguntaIndex < preguntas.size) {
         val preguntaActual = preguntas[currentPreguntaIndex]
         ShowPregunta(preguntaActual, navController, viewModel)
+
+        // Mostrar el temporizador
+        Text(text = "Tiempo restante: $timeLeft segundos", modifier = Modifier.padding(16.dp))
     } else if (preguntas.isEmpty()) {
         Text(text = errorMessage, modifier = Modifier.padding(16.dp))
     }
 
-    // Navegar a la pantalla de resultados solo si se han respondido todas las preguntas
+    // Redirigir a la pantalla de resultados si el tiempo se acaba
+    if (timeLeft <= 0) {
+        LaunchedEffect(Unit) {
+            navController.navigate("resultado/$correctAnswersCount/${currentPreguntaIndex}")
+        }
+    }
+
+    // Redirigir a resultados si se contestaron todas las preguntas
     if (currentPreguntaIndex >= preguntas.size && preguntas.isNotEmpty()) {
         LaunchedEffect(currentPreguntaIndex) {
             navController.navigate("resultado/$correctAnswersCount/${preguntas.size}")
         }
     }
 }
+
 @Composable
 fun ShowPregunta(pregunta: Pregunta, navController: NavHostController, viewModel: PreguntasViewModel) {
-    // Obtener el contexto usando LocalContext
     val context = LocalContext.current
 
     AndroidView(factory = {
@@ -62,58 +75,43 @@ fun ShowPregunta(pregunta: Pregunta, navController: NavHostController, viewModel
         val respuestaButton3: Button = view.findViewById(R.id.respuestaButton3)
         val respuestaButton4: Button = view.findViewById(R.id.respuestaButton4)
 
-        // Configurar los componentes del layout
         preguntaTextView.text = pregunta.pregunta
 
-        // Cargar la imagen usando Coil en lugar de Picasso
-        pregunta.imatge.let { imatge ->
+        pregunta.imatge?.let { imatge ->
             val imageLoader = context.imageLoader
             val request = ImageRequest.Builder(context)
                 .data(imatge)
-                .target(imageView) // Establecer la imagen en el ImageView
+                .target(imageView)
                 .build()
 
             imageLoader.enqueue(request)
         }
 
-        // Establecer las respuestas
         respuestaButton1.text = pregunta.respostes[0].etiqueta
         respuestaButton2.text = pregunta.respostes[1].etiqueta
         respuestaButton3.text = pregunta.respostes[2].etiqueta
         respuestaButton4.text = pregunta.respostes[3].etiqueta
 
-        // Configurar los listeners para los botones
-        // Supongamos que `preguntaActual.id` es el ID de la pregunta
         val preguntaId = pregunta.id
 
         respuestaButton1.setOnClickListener { comprobarRespuesta(pregunta.respostes[0].id, pregunta.resposta_correcta, preguntaId, navController, viewModel) }
         respuestaButton2.setOnClickListener { comprobarRespuesta(pregunta.respostes[1].id, pregunta.resposta_correcta, preguntaId, navController, viewModel) }
         respuestaButton3.setOnClickListener { comprobarRespuesta(pregunta.respostes[2].id, pregunta.resposta_correcta, preguntaId, navController, viewModel) }
         respuestaButton4.setOnClickListener { comprobarRespuesta(pregunta.respostes[3].id, pregunta.resposta_correcta, preguntaId, navController, viewModel) }
-
     })
 }
 
-
-
-// Comprobar respuesta ahora usa el ViewModel
 private fun comprobarRespuesta(respuestaSeleccionadaId: Int, respuestaCorrectaId: Int, preguntaId: Int, navController: NavHostController, viewModel: PreguntasViewModel) {
     if (respuestaSeleccionadaId == respuestaCorrectaId) {
-        viewModel.correctAnswersCount++ // Incrementar si la respuesta es correcta
-        // Actualizar estadísticas en el servidor (1 acierto, 0 fallos)
+        viewModel.correctAnswersCount++
         viewModel.actualizarEstadisticas(preguntaId, 1, 0)
     } else {
-        // Actualizar estadísticas en el servidor (0 aciertos, 1 fallo)
         viewModel.actualizarEstadisticas(preguntaId, 0, 1)
     }
 
-    // Cambiar de pregunta
     if (viewModel.currentPreguntaIndex < viewModel.preguntas.size - 1) {
         viewModel.currentPreguntaIndex += 1
     } else {
-        navController.navigate("resultado/${viewModel.correctAnswersCount}/${viewModel.preguntas.size}") // Navegar a resultados
+        navController.navigate("resultado/${viewModel.correctAnswersCount}/${viewModel.preguntas.size}")
     }
 }
-
-
-
